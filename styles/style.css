@@ -77,7 +77,7 @@
 /*---------------------------
    Footer Featured Section 
 ----------------------------*/
-.footer-teature{
+.footer-feature{
   display: flex;
   margin-bottom: 150px;
 }
@@ -101,9 +101,11 @@
   Footer Section
 ----------------- */
 .footer{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.footer-image{
+.footer-image img{
   width: 484px;
   height: 110px;
   position: relative;
@@ -162,3 +164,59 @@
     grid-template-columns: repeat(2,1fr);
   }
 }
+/*------------------------------- 
+    Footer Feature Responsive
+ --------------------------------*/
+ @media only screen and (max-width:480px){
+  .footer-feature{
+   flex-direction: column;
+  }
+  .footer-featured-heading{
+    left: 0px;
+  }
+  .footer-featured-image img{
+    width: 100%;
+    left: 0px;
+    top: 200px;
+    margin-bottom: 150px;
+  }
+ }
+ @media only screen and (min-width:481px) and (max-width:768px){
+  .footer-feature{
+    flex-direction: column;
+   }
+   .footer-featured-heading{
+     left: 0px;
+   }
+   .footer-featured-image img{
+     width: 100%;
+     left: 0px;
+     top: 200px;
+     margin-bottom: 150px;
+   }
+ }
+ /*------------------------------- 
+    Footer Section Responsive
+ --------------------------------*/
+ @media only screen and (max-width:480px){
+   .footer{
+   
+   }
+   .footer-image img{
+    width: 70%;
+   }
+   .social-icon{
+    text-align: center;
+   }
+   .social-icon img{
+    width: 15%;
+   }
+ }
+ @media only screen and (min-width:481px) and (max-width:768px){
+  .footer-image img{
+    left: 1px;
+  }
+  .copy-text{
+    text-align: center;
+  }
+ }
