@@ -17,6 +17,7 @@
      display: flex;
      background-color: #2D25A0;
      margin-bottom: 50px;
+     height: 650px;
  }
  .featured-heading{
    width: 580px;
@@ -30,10 +31,10 @@
    font-size: 60px;
  }
  .featured-image img{
-     position: relative;
-     width: 50%;
-     left: 400px;
- }
+  position: relative;
+  width: 70%;
+  left: 300px;
+}
  .watch-live{
    background-color: #E02C6D;
    color: white;
@@ -75,7 +76,6 @@
 .blogs{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  margin-left: 250px;
   grid-row-gap: 30px
 }
 .blog{
@@ -97,16 +97,16 @@
 }
 .footer-featured-image img{
   position: relative;
-  width: 700px;
+  width: 650px;
   height: 550px;
-  left: 520px;
+  left: 130px;
 }
 .footer-featured-heading{
   width: 469px;
   height: 309px;
   position: relative;
-  left: 300px;
-  bottom: -90px;
+  left: 100px;
+  bottom: -50px;
 }
 .footer-featured-heading h1{
   font-size: 50px;
@@ -121,6 +121,6 @@
   width: 484px;
   height: 110px;
   position: relative;
-  left: 380px;
+  left: 65px;
   top: -60px;
 }
