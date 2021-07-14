@@ -93,6 +93,7 @@
 ----------------------------*/
 .footer-teature{
   display: flex;
+  margin-bottom: 150px;
 }
 .footer-featured-image img{
   position: relative;
@@ -109,4 +110,17 @@
 }
 .footer-featured-heading h1{
   font-size: 50px;
+}
+/*--------------- 
+  Footer Section
+----------------- */
+.footer{
+  text-align: center;
+}
+.footer-image{
+  width: 484px;
+  height: 110px;
+  position: relative;
+  left: 380px;
+  top: -60px;
 }
