@@ -9,6 +9,9 @@
  body{
      font-family: 'Poppins', sans-serif;
  }
+ /*------------------ 
+    Featured Section
+ -------------------*/
  .featured-section{
      display: flex;
      background-color: #2D25A0;
@@ -43,3 +46,21 @@
    position: relative;
    left: 7px;
  }
+ /*------------------------------- 
+    Featured Section Responsive
+ --------------------------------*/
+ @media only screen and (max-width:688px) {
+  .featured-section{
+       flex-direction: column;
+       width: 100%;
+      }
+  .featured-heading{
+   
+   left: 0px;
+   height: 400px;
+  }
+  .featured-image img{
+    width: 100%;
+    left: auto;
+  }    
+}
