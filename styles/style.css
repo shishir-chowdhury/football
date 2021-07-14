@@ -1,0 +1,45 @@
+/*----------- 
+  Google Font
+ ------------*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ /*------------- 
+   Commom Style
+  --------------*/
+ body{
+     font-family: 'Poppins', sans-serif;
+ }
+ .featured-section{
+     display: flex;
+     background-color: #2D25A0;
+ }
+ .featured-heading{
+   width: 580px;
+   height: 156px;
+   position: relative;
+   left: 200px;
+   top: 75px;
+ }
+ .featured-heading h1{
+   color: white;
+   font-size: 60px;
+ }
+ .featured-image img{
+     position: relative;
+     width: 50%;
+     left: 400px;
+ }
+ .watch-live{
+   background-color: #E02C6D;
+   color: white;
+   padding: 15px;
+   width: 150px;
+   position: relative;
+   bottom: 35px;
+   border: none;
+ }
+ .fa-arrow-right{
+   color:white;
+   position: relative;
+   left: 7px;
+ }
