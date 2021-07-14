@@ -34,6 +34,11 @@
   position: relative;
   width: 70%;
   left: 300px;
+  transition: width 3s linear, transform 3s;
+}
+.featured-image img:hover{
+  width: 78%;
+  transform: rotate(360deg);
 }
  .watch-live{
    background-color: #E02C6D;
