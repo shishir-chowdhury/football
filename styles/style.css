@@ -54,24 +54,6 @@
    position: relative;
    left: 7px;
  }
- /*------------------------------- 
-    Featured Section Responsive
- --------------------------------*/
- @media only screen and (max-width:688px) {
-  .featured-section{
-       flex-direction: column;
-       width: 100%;
-      }
-  .featured-heading{
-   
-   left: 0px;
-   height: 400px;
-  }
-  .featured-image img{
-    width: 100%;
-    left: auto;
-  } 
-}
 /*----------------
   Middle Section
 -----------------*/
@@ -128,4 +110,37 @@
   position: relative;
   left: 65px;
   top: -60px;
+}
+/*------------------------------- 
+    Featured Section Responsive
+ --------------------------------*/
+ @media only screen and (max-width:480px) {
+  .featured-section{
+    flex-direction: column;
+    width: 100%;
+    height: 870px;
+  }
+  .featured-heading{
+    top: 0px;
+    left: 0px;
+    height: 400px;
+  }
+  .featured-image img{
+    width: 100%;
+    left: auto;
+  } 
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .featured-section{
+  
+  }
+  .featured-heading{
+    top: 0px;
+    left: 0px;
+  }
+  .featured-image img{
+    width: 100%;
+    left: 0px;
+    top: 200px
+  }
 }
